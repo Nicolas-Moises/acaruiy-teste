@@ -13,24 +13,12 @@ O projeto tem como objetivo:
 4. Adicionar a funcionalidade de upload de foto de perfil.
 5. Listar e gerenciar endereços vinculados aos usuários, incluindo a seleção de um endereço principal.
 
-<!-- ## ⚙️ Funcionalidades
 
-- **Autenticação de Usuário**:
-  - [x] Registro de usuário
-  - [x] Login utilizando cookies para autenticação
-  
-- **Gerenciamento de Usuários**:
-  - [x] Tela inicial com listagem de usuários cadastrados
-  - [x] Paginação na listagem de usuários (5 itens por página)
-  - [x] Tela de cadastro de usuário
-  - [x] Visualização de detalhes de cada usuário
-  - [x] Edição de dados do usuário
-  - [x] Exclusão de usuários
-  
-- **Gerenciamento de Endereços**:
-  - [x] Criação e gerenciamento de endereços vinculados aos usuários
-  - [x] Atribuição de um endereço como principal
-  - [x] Exibição de múltiplos endereços cadastrados -->
+## Clonar o Repositório
+
+```bash
+git clone https://github.com/seu-usuario/acaruiy-teste.git
+```
 
 ## Configuração do Backend
 
@@ -127,10 +115,9 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 - **Node.js>18**: [Node.js Download](https://nodejs.org/)
 - **Yarn**: [Yarn Download](https://yarnpkg.com/)
 
-### 2. Clonar o Repositório
+### 2. Acessar
 
 ```bash
-git clone https://github.com/seu-usuario/acaruiy-teste.git
 cd acaruiy-teste/web
 ```
 
