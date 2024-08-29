@@ -72,6 +72,11 @@ Para realizar as migrations, utilize:
 ./vendor/bin/sail artisan migrate
 ```
 
+Para criar um link simbólico da pasta storage, para a pasta public, tendo acesso as imagens que forem baixadas na aplicação.
+```bash
+./vendor/bin/sail artisan storage:link
+```
+
 Para rodar a seeder de usuários, utilize o comando: 
 
 ```bash
