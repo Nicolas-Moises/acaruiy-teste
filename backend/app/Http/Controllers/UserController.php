@@ -86,6 +86,12 @@ class UserController extends Controller
     {
         $user = User::findOrFail($id);
         
+        if ($user->addresses->count() > 0) {
+            foreach ($user->addresses as $address) {
+                $address->delete();
+            }
+        }
+        
         $user->delete();
 
         return response()->json([
