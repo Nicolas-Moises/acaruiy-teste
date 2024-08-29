@@ -10,7 +10,7 @@ type CreateUserRequest = {
 }
 
 export async function createUser(data: CreateUserRequest): Promise<void> {
-  const { email, phone, document, cellphone, avatar } = data
+  const { email, phone, name, document, cellphone, avatar } = data
   await api.post('/users', {
     name,
     email,
