@@ -31,6 +31,12 @@ class AddressController extends Controller
 
         $user = User::findOrFail($userId);
 
+        if ($data['main_address']) {
+            foreach ($user->addresses as $userAddress) {
+                $userAddress->update(['main_address' => false]);
+            }
+        }
+
         if ($user->addresses->count() === 0) {
             $data['main_address'] = true;
         }
