@@ -1,0 +1,11 @@
+POST http://localhost/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Nicolas Moises",
+    "email": "nicolas@gmail.com",
+    "password": "123123123"
+}
+
+###
